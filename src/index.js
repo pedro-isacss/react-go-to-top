@@ -32,7 +32,7 @@ function BackToTop({
   }, []);
 
   return (
-    <>
+    <div>
       {isVisible && (
         <button
           onClick={onBackToTop}
@@ -48,7 +48,7 @@ function BackToTop({
           {icon ? icon : <img src="top.svg" alt="Top" />}
         </button>
       )}
-    </>
+    </div>
   );
 }
 
