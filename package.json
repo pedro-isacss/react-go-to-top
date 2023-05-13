@@ -5,6 +5,7 @@
     "name": "Pedro Isac"
   },
   "description": "React button to scroll to top of page",
+  "main": "./src/index.js",
   "keywords": [
     "react-component",
     "scroll",
