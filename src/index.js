@@ -9,6 +9,7 @@ function BackToTop({
   size,
   offsetToShow,
   zIndex,
+  borderRadius,
 }) {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -45,6 +46,7 @@ function BackToTop({
             width: size ? size : 48,
             height: size ? size : 48,
             zIndex: zIndex ? zIndex : 100,
+            borderRadius: borderRadius ? borderRadius : 24,
           }}
         >
           {icon ? (

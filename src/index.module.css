@@ -4,7 +4,6 @@
   align-items: center;
   position: fixed;
   border: none;
-  border-radius: 24px;
   cursor: pointer;
   animation: show 0.4s ease-in 0s 1;
 }
